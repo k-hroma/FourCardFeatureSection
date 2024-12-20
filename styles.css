@@ -82,8 +82,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
-
+  gap: 2rem;
   padding: 0 1rem;
 
 }
@@ -111,7 +110,7 @@ main {
 
 .container>* {
   flex: 1;
-
+  border-radius: 5px;
 }
 
 .supervisor {
@@ -119,7 +118,10 @@ main {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  box-shadow: 0px -7px 0px -1px var(--Cyan);
+  box-shadow: 10px 10px 19px -6px rgba(68, 66, 66, 0.33);
+  border: none;
+  border-top: 4px solid var(--Cyan);
+
 }
 
 .col-2 {
@@ -127,6 +129,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
 }
 
 .team-builder {
@@ -134,7 +137,10 @@ main {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  box-shadow: 0px -7px 0px -1px var(--Red);
+  box-shadow: 10px 10px 19px -6px rgba(68, 66, 66, 0.33);
+  border-radius: 5px;
+  border: none;
+  border-top: 4px solid var(--Red);
 }
 
 .karma {
@@ -142,7 +148,10 @@ main {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  box-shadow: 0px -7px 0px -1px var(--Orange);
+  box-shadow: 10px 10px 19px -6px rgba(68, 66, 66, 0.33);
+  border-radius: 5px;
+  border: none;
+  border-top: 4px solid var(--Orange);
 }
 
 .calculator {
@@ -150,5 +159,58 @@ main {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  box-shadow: 0px -7px 0px -1px var(--Blue);
+  box-shadow: 10px 10px 19px -6px rgba(68, 66, 66, 0.33);
+  border: none;
+  border-top: 4px solid var(--Blue);
+}
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    width: 90%;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header h2 {
+    font-size: 1.5rem;
+  }
+
+  .header p {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+
+  }
+
+  .container {
+    margin-top: 1rem;
+    width: 90%;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .container h3 {
+    font-size: 1.25rem;
+  }
+
+  .container p {
+    font-size: 0.85rem;
+  }
+
+  .container>* {
+    padding: 1rem;
+  }
+
+  .col-2 {
+    gap: 1.5rem;
+    padding: 0;
+  }
+
+  .team-builder,
+  .karma {
+    padding: 1rem 1rem;
+  }
+
 }
