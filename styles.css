@@ -80,7 +80,7 @@ main {
 .container {
   width: 80%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
   padding: 0 1rem;
@@ -111,6 +111,7 @@ main {
 .container>* {
   flex: 1;
   border-radius: 5px;
+  max-width: 350px;
 }
 
 .supervisor {
@@ -187,6 +188,7 @@ main {
   .container {
     margin-top: 1rem;
     width: 90%;
+
     flex-direction: column;
     gap: 1.5rem;
   }
@@ -201,6 +203,7 @@ main {
 
   .container>* {
     padding: 1rem;
+    max-width: 310px;
   }
 
   .col-2 {
