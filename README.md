@@ -20,12 +20,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Product Card Component]()
+![Four Card Feature Section](./images/Screenshot.png)
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://github.com/k-hroma/FourCardFeatureSection.git]
+- Live Site URL: [https://k-hroma.github.io/FourCardFeatureSection/]
 
 ## My process
 
